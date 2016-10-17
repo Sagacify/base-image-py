@@ -16,9 +16,7 @@ RUN apt-get update \
         pytest-coverage \
         numpy \
         scipy \
-        python-igraph \
         scikit-learn \
-        wordfreq \
         flask \
         sagaconfig \
         sagalogger
