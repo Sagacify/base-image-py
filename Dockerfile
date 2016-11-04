@@ -9,6 +9,7 @@ RUN apt-get update \
         libatlas-base-dev \
       && apt-get clean \
       && pip3 install -U pip \
+        boto3==1.4.1 \
         flake8 \
         flake8-quotes \
         pylint \
