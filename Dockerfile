@@ -10,14 +10,14 @@ RUN apt-get update \
       && apt-get clean \
       && pip3 install -U pip \
         boto3==1.4.1 \
-        flake8 \
-        flake8-quotes \
-        pylint \
-        pytest-watch \
-        pytest-coverage \
-        numpy \
-        flask \
-        sagaconfig \
-        sagalogger
+        flake8-quotes==0.8.1 \
+        flake8==3.0.4 \
+        Flask==0.11.1 \
+        numpy==1.11.2 \
+        pylint==1.6.4 \
+        pytest-cov==2.4.0 \
+        pytest-watch==4.1.0 \
+        sagaconfig==0.0.2 \
+        sagalogger==0.2.1
 
 WORKDIR /www/app
