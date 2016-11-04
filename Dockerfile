@@ -16,8 +16,6 @@ RUN apt-get update \
         pytest-watch \
         pytest-coverage \
         numpy \
-        scipy \
-        scikit-learn \
         flask \
         sagaconfig \
         sagalogger
