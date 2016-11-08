@@ -17,7 +17,7 @@ RUN apt-get update \
         pylint==1.6.4 \
         pytest-cov==2.4.0 \
         pytest-watch==4.1.0 \
-        sagaconfig==0.0.2 \
-        sagalogger==0.2.1
+        sagaconfig==0.0.4 \
+        sagalogger==0.3.1
 
 WORKDIR /www/app
