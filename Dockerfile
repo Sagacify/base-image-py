@@ -18,6 +18,6 @@ RUN apt-get update \
         pytest-cov==2.4.0 \
         pytest-watch==4.1.0 \
         sagaconfig==0.0.4 \
-        sagalogger==0.3.1
+        sagalogger==0.3.2
 
 WORKDIR /www/app
